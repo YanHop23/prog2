@@ -163,7 +163,7 @@ public class CharacterCounter {
         }
 
         Integer cnt = 0;
-
+        Integer ccc= 0;
         try {
             cnt = countCharactersInFile(file, filterCh);
         } catch (IOException e) {
